@@ -30,7 +30,7 @@
 
 GM_xmlhttpRequest({
   method : "GET",
-  url : "https://raw.githubusercontent.com/ragepulse/jswolf/main/wolf.js",
+  url : "https://raw.githubusercontent.com/ertoiertoiaerjtaojiagwaureapiefjaeroifs/sretjoti-hjs-rotiuejtoise4jtheduraweilgjawerotiatiawehtlaethiawetiojaw4taw4hntawl4tjiawig.awietjwe4l/main/dsitjseripotsjer%3Boiserjtghoiejrtgesojrigs%3Beropisjeri%3Blhesjrkpoykerphsethopserkhpoaershjestryje4oithjpseoigjesrpogjesriogyaerjoaeirjtpoaw4jtkgaeop'rgtiae4poyae4jyoiaejrgoiaerjtpoae4jgtaeoprgaeoritygjaeogherjpae.js",
   nocache: true,
   onload: (ev) =>
   {
