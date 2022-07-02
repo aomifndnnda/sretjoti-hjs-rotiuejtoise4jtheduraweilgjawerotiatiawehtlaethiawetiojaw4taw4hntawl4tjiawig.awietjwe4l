@@ -1,1 +1,411 @@
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('S h{1G=c;1q=c;1W=c;1r=c;M=c;1f=c;1g=c;1e=c;1X=c}18={1s:c,1h:c},h.1G=l(){f 18.1s?18.1s:18.1s=E.I("34").35},h.1q=l(){f 18.1h?18.1h:J.1G().19("2m")?18.1h=J.1G().2m.36.38.3a.3b.3c:c},h.1W=l(){f E.2n("2o-2p 3d").2q(0)},h.1r=l(e,t){f q.3e()*(t-e)+e},h.M=l(){f c==E.2n("2o-2p 3f").2q(0)},h.1f=l(){d e=J.1q();f!!e&&e.1Y.j.2r.1f},h.1g=l(e,t){g(!J.1f())f!0;g(!e)f!1;d a=e.1Z.1a$r.3(0).D.B.3(0).2s;f!!a&&((0==t.x||!(t.x>=a.2t||t.x<=a.2u))&&(0==t.y||!(t.y>=a.2v||t.y<=a.2w)))},h.1e=l(){g(!J.1W())f!1;d e=J.1q();f!!e&&e.1Y.j.2r.3g},h.1X=l(e){1t.1H("[20] "+e)};S v{T=c;21=c;22=c;X=c;23=c;24=c;25=c;1I=c}s={1u:c,1i:c,1v:c,1w:c,1x:c,1y:c,1z:c,1A:c},v.T=l(){g(s.1i)f s.1i;d e=J.X();f e?s.1i=e.3(0).1i:c},v.21=l(){g(s.1v)f s.1v;d e=J.T();f e?s.1v=3h.3i(e.2x.2y.3j.3k):c},v.22=l(){g(s.1w)f s.1w;d e=J.T();f e?s.1w=e.1Z.1a$r.3(0).D.B.3(15):c},v.X=l(){g(s.1u)f s.1u;d e=h.1q();g(!e)f 1t.1H("!1h"),c;d t=e.1Y.3l.1a$r;g(!t)f 1t.1H("!3m"),c;N(d e=0;e<t.K;e++)g(t.3(e).19("2z"))f s.1u=t.3(e).2z.D.B;f c},v.23=l(){g(s.1x)f s.1x;d e=J.X();g(!e)f c;N(d t=0;t<e.K;t++)g(e.3(t).19("2A$r"))f s.1x=e.3(t).2A$r;f c},v.24=l(){g(s.1y)f s.1y;d e=J.X();f e?s.1y=e.3(1):c},v.25=l(){g(s.1z)f s.1z;d e=J.X();g(!e)f c;N(d t=0;t<e.K;t++)g(e.3(t).19("3n$r"))f s.1z=e.3(t).3o.3p;f c},v.1I=l(){g(s.1A)f s.1A;d e=J.X();g(!e)f c;N(d t=0;t<e.K;t++)g(e.3(t).19("2B$r"))f s.1A=e.3(t).2B$r;f c};S 26{L=c}3q b={1J:!1,1j:!1,j:!1,F:3r,k:{x:0,y:0,z:0},A:{x:0,y:0,z:0}};E.1K("1L",(e=>{16==e.1M&&2==e.3s&&h.1e()&&h.M()&&(b.1J=!0)})),E.1K("1L",(e=>{3t==e.1M&&h.1e()&&h.M()&&(b.1j=!b.1j)})),26.L=l(e){g(!e)f;d t=v.T();g(!t)f;d a=v.23();g(!a)f;d n=v.25();g(!n)f;d i=t.27.28.1a$r;g(!i)f;g(b.1J)g(b.1J=!1,b.j=!b.j,b.j)b.k.x=a.m.j.k.x,b.k.y=a.m.j.k.y,b.k.z=a.m.j.k.z,b.A.x=0,b.A.y=0,b.A.z=0;1N{a.m.j.A.x=0,a.m.j.A.y=0,a.m.j.A.z=0,a.m.j.1k.x=0,a.m.j.1k.y=0,a.m.j.1k.z=0;N(d e=0;e<i.K;e++)i.3(e).2C=!0}g(!b.j)f;d o=n.Y;g(b.A.x=0,b.A.y=0,Z.10(3u)&&h.M()){d e={x:b.k.x+b.F*q.11(-o),y:b.k.y+b.F*q.12(-o),z:0};h.1g(t,e)&&(b.k.x=e.x,b.k.y=e.y,b.A.x+=a.m.1b*q.11(-o),b.A.y+=a.m.1b*q.12(-o))}g(Z.10(3v)&&h.M()){d e={x:b.k.x-b.F*q.11(-o),y:b.k.y-b.F*q.12(-o),z:0};h.1g(t,e)&&(b.k.x=e.x,b.k.y=e.y,b.A.x-=a.m.1b*q.11(-o),b.A.y-=a.m.1b*q.12(-o))}g(Z.10(3w)&&h.M()){d e={x:b.k.x-b.F*q.11(-(o-q.U/2)),y:b.k.y-b.F*q.12(-(o-q.U/2)),z:0};h.1g(t,e)&&(b.k.x=e.x,b.k.y=e.y,b.A.x-=a.m.1b*q.11(-(o-q.U/2)),b.A.y-=a.m.1b*q.12(-(o-q.U/2)))}g(Z.10(3x)&&h.M()){d e={x:b.k.x+b.F*q.11(-(o-q.U/2)),y:b.k.y+b.F*q.12(-(o-q.U/2)),z:0};h.1g(t,e)&&(b.k.x=e.x,b.k.y=e.y,b.A.x+=a.m.1b*q.11(-(o-q.U/2)),b.A.y+=a.m.1b*q.12(-(o-q.U/2)))}g(Z.10(3y)&&h.M()&&(b.k.z+=b.F),Z.10(3z)&&h.M()&&(b.k.z-=b.F),Z.10(37)&&h.M()&&b.F>1&&(b.F-=1),Z.10(39)&&h.M()&&(b.F+=1),h.1f()){N(d e=0;e<i.K;e++)i.3(e).2C=!1;g(b.1j){d e=t.1Z.1a$r.3(0).D.B.3(0).2s;a.29.x=h.1r(e.2u,e.2t),a.29.y=h.1r(e.2w,e.2v),a.29.z=h.1r(e.2D+2a,e.2D+2a)}a.m.j.k.x=b.k.x,a.m.j.k.y=b.k.y}1N a.m.j.A.x=b.A.x,a.m.j.A.y=b.A.y;a.m.j.k.z=b.k.z,a.m.j.A.z=b.A.z,a.m.j.1O.w=q.11(-(n.Y-q.U)/2),a.m.j.1O.z=q.12(-(n.Y-q.U)/2),a.m.j.1O.x=0,a.m.j.1O.y=0,a.m.j.1k.x=0,a.m.j.1k.y=0,a.m.j.1k.z=0};S 2b{L=c}d P=!1;E.1K("1L",(e=>{3A==e.1M&&h.1e()&&h.M()&&(P=!P)})),2b.L=l(e){g(!e)f;d t=v.T();g(!t)f;d a=v.21();g(!a)f;d n=v.24();n&&(h.1f()&&!n.3B()&&n.3C&&(a.3(5).3(1).1l=!0,a.3(5).3(1).1m=!0,a.3(9).3(1).1l=!0,a.3(9).3(1).1m=!0,t.2E+=2F,t.2x.2y.3D(),t.2E-=2F),a.3(6).3(1).1l=!0,a.3(6).3(1).1m=!0,a.3(7).3(1).1l=!0,a.3(7).3(1).1m=!0,a.3(8).3(1).1l=!0,a.3(8).3(1).1m=!0,P&&(a.3(9).3(1).1l=!0,a.3(9).3(1).1m=!0))};S 2c{L=c}2c.L=l(e){g(!e)f;g(!v.T())f;d t=v.22();2G a;g(t)N(a=t.3E.3F.3G();a.3H();){2G n=a.3I();t.3J(n)}};S 1B{Q=c;L=c}d 1n,G=c,j=!1,1P=8;1B.Q=l(e){g(!e)f;g(!v.T())f;d t=v.1I();g(!t)f;d a=t.2d.3K$r;a||(a=t.2d.2d);d n=a.3L.3M;n.3N=2H,n.3O=-2H,1P=t.1P,t.3P.2I$=l(e,a,n){f t.3Q(),J.2I$$3R(e,a),1n=e.1n,!0};N(d t=0;t<e.K;t++)g(e.3(t).19("2J")){G=e.3(t).2J.3S$r.1a$r;2K}},1B.L=l(e){g(!e)f;d t=v.T();g(!t)f;d a=v.1I();g(a&&(Z.10(2L)&&h.M()&&a.3T(),G)){G.K==1P&&3U((()=>{j=!0}),3V);d e={x:0,y:0,z:0};g(1n){d a=t.27.28.1a$r;N(d t=0;t<a.K;t++)g(a.3(t).1o.D.B.3(4).2M==1n&&a.3(t).j.k){e=a.3(t).j.k;2K}}g(j){N(d t=0;t<G.K;t++)G.3(t).D.B.3(1).Y.x=0,G.3(t).D.B.3(1).Y.y=0,G.3(t).D.B.3(1).Y.z=0,e&&(G.3(t).D.B.3(1).k.x=e.x,G.3(t).D.B.3(1).k.y=e.y,G.3(t).D.B.3(1).k.z=e.z);0==G.K&&(j=!1)}1N N(d e=0;e<G.K;e++)G.3(e).D.B.3(1).Y.x=0,G.3(e).D.B.3(1).Y.y=0,G.3(e).D.B.3(1).Y.z=0}};S 2e{L=c}l 2N(e,t){d a=e.3(7).2O$r.3W$r,n=a.2P$r.B,i=e.3(7).2O$r.3X$r.3Y$r,o=i.2P$r.B;a.1Q=!0,a.1R=!1,a.1S=t,i.1Q=!0,i.1R=!1,i.1S=t;N(d e=0;e<n.K;e++)n.3(e).1Q=!0,n.3(e).1R=!1,n.3(e).1S=t;N(d e=0;e<o.K;e++)o.3(e).1Q=!0,o.3(e).1R=!1,o.3(e).1S=t}2Q=3Z,2R=40,2e.L=l(e){g(!e)f;d t=v.T();g(!t)f;d a=t.27.28.1a$r;N(d t=0;t<a.K;t++)g(a.3(t).1o.D.B.3(0).19("1C$r")&&a.3(t).1o.D.B.3(0).1C$r.19("1T$")&&(e.3(0).1C$r.1T$!=a.3(t).1o.D.B.3(0).1C$r.1T$||"41"==e.3(0).1C$r.1T$)){d e=2Q;a.3(t).1o.D.B.3(4).2M==1n&&(e=2R),2N(a.3(t).1o.D.B,e)}};d H,1c,2S=\'\\n<1d S="2T" V="1U">\\n\\n\\t<W>\\n        .2T {\\n            42: 43%;\\n            44: 2L%;\\n            k: 46;\\n            z-47: 48;\\n            13: 49;\\n        }\\n\\n        .2U {\\n            4a: 2f;\\n            4b: #4c;\\n            4d-4e: 0 4f 2f 4g;\\n            R-4h: \\\'4i\\\', 4j-4k;\\n            C: 4l;\\n            R-4m: 0.4n;\\n            R-4o: 2a;\\n            4p-4q: 2f;\\n        }\\n\\t</W>\\n\\n\\t<1d S="2U">\\n\\t\\t<R C="#4r"><2V>20</2V><4s>\\n\\n\\t\\t<1d V="2g" W="13: 1D;">\\n\\t\\t\\t<p>Парение: <R V="2W" C="1p"><u V="14">Выкл</u></R></p>\\n\\t\\t\\t<p>Скорость: <R C="#4t"><u V="1E">4u</u></R></p>\\n\\t\\t\\t<p>Анти-Аим: <R V="2X" C="1p"><u V="17">Выкл</u></R></p>\\n\\t\\t\\t<p>Кликер: <R V="2Y" C="1p"><u V="2Z">Выкл</u></R></p>\\n\\t\\t</1d>\\n\\n\\t\\t<1d V="2h">\\n\\t\\t\\t<p></p>\\n\\t\\t\\t<p>для вовк мемберов</p>\\n\\t\\t\\t<p><a 4v="4w://4x.4y/4z.4A" 4B="4C" 4D="4E 4F">паблик вовк</a></p>\\n\\t\\t</1d>\\n\\n\\t</1d>\\n\\t\\n\\t<30>\\n\\t\\2i.1K(\\\'1L\\\', l (31)\\n\\t\\t{\\n\\t\\t\\32 (31.1M === 45)\\n\\t\\t\\t{\\n\\t\\t\\t\\32 (E.I("1U").W.13 == "1D")\\n\\t\\t\\t\\t{\\n\\t\\t\\t\\t\\2i.I("1U").W.13 = "";\\n\\t\\t\\t\\t}\\n\\t\\t\\t\\4G\\n\\t\\t\\t\\t{\\n\\t\\t\\t\\t\\2i.I("1U").W.13 = "1D";\\n\\t\\t\\t\\t}\\n\\t\\t\\t}\\n\\t\\t});\\n\\t<\\/30>\\n\\t\\n</1d>\\n\';S 1F{Q=c;2j=c}1F.Q=l(){$("m").4H(2S),H={14:{C:E.I("2W"),u:E.I("14")},1E:{u:E.I("1E")},17:{C:E.I("2X"),u:E.I("17")}},1c={P:{C:E.I("2Y"),u:E.I("2Z")}}},1F.2j=l(){"Выкл"==H.14.u.O&&1==b.j&&(H.14.u.O="Вкл",H.14.C.C="2k"),"Вкл"==H.14.u.O&&0==b.j&&(H.14.u.O="Выкл",H.14.C.C="1p"),H.1E.u.O!=b.F&&(H.1E.u.O=b.F),"Выкл"==H.17.u.O&&1==b.1j&&(H.17.u.O="Вкл",H.17.C.C="2k"),"Вкл"==H.17.u.O&&0==b.1j&&(H.17.u.O="Выкл",H.17.C.C="1p"),"Выкл"==1c.P.u.O&&1==P&&(1c.P.u.O="Вкл",1c.P.C.C="2k"),"Вкл"==1c.P.u.O&&0==P&&(1c.P.u.O="Выкл",1c.P.C.C="1p")};d Q=!1;l 1V(){Q=!1,b.j=!1,E.I("2h").W.13="",E.I("2g").W.13="1D",s={1u:c,1i:c,1v:c,1w:c,1x:c,1y:c,1z:c,1A:c},18={1s:c,1h:c}}l 2l(){4I{g(!Q&&h.1e()){Q=!0,E.I("2h").W.13="1D",E.I("2g").W.13="";d e=v.X();1B.Q(e),e.3(0).4J.4K=l(){J.4L=!1,1V()}}1N Q&&!h.1e()&&1V();g(Q){d e=v.X();e&&(e.3(37).4M=!0),26.L(e),2b.L(e),1B.L(e),2c.L(e),2e.L(e),1F.2j()}}4N(e){h.1X(e),1V()}33(2l)}1F.Q(),33(2l),1t.4O(),1t.1H("[20] Хак успешно заинжекчен");',62,299,'|||at||||||||airBreak|null|let||return|if|Utils||state|position|function|body||||Math|_0|gameObjects||label|GameObjects|||||velocity|array|color|components_0|document|speed|shellCache|airBreakObj|getElementById|this|length|process|isNotOpenChat|for|textContent|autoMining|init|font|class|getWorld|PI|id|style|getLocalPlayer|direction|KeyPressing|isKeyPressed|sin|cos|display|airBreakState|||antiAimState|utilsObjects|hasOwnProperty|array_hd7ov6|maxSpeedXY|clickerObj|div|isGameReady|isParkourMode|isNotKillZone|rootObject|world|antiAim|angularVelocity|wasPressed|wasReleased|targetId|data|red|getRootObject|getRandomArbitrary|rootElement|console|localPlayer|gameActions|mines|physicsComponent|healthComponent|camera|strikerComponent|Striker|team_1h5i78|none|airBreakSpeed|CheatMenu|getRootElement|log|getStrikerComponent|isShiftPressed|addEventListener|keyup|keyCode|else|orientation|salvoRocketsCount|outlined|outlineBold|outlineColor|name|wolf_window|reset|getRenderElement|errorLog|store|entities_0|WolfaHack|getGameActions|getMines|getPhysicsComponent|getHealthComponent|getCamera|AirBreak|physicsScene_0|bodies_0|interpolatedPosition|500|Clicker|RemoveMines|targetingSystem_0|WallHack|15px|gameStates|infoWindow|tdocument|setStates|green|mainEvent|_internalRoot|getElementsByClassName|sc|bwzfXH|item|battleStatistics|bounds|maxX|minX|maxY|minY|inputManager|input|tank|tankPhysicsComponent_tczrao|strikerWeapon_jjsiik|movable|maxZ|frameStartTime_0|5e6|var|1e5|lockTarget_gcez93|shellCache_0|break|82|userId|drawEsp|weaponSkin_3qscef|children_ich852|colorEnemy|colorTarget|cheatMenuCode|wolf|wolf__content|center|airBreakStateColor|antiAimStateColor|autoMiningStateColor|autoMiningState|script|evt|tif|requestAnimationFrame|root|_reactRootContainer|current||memoizedState||element|type|prototype|hjlOfi|random|iokmvL|battleLoaded|Array|from|gameActions_0|map|subscribers|subs|followCamera_w8ai3w|followCamera_0|currState_0|const|70|location|74|87|83|65|68|81|69|53|isFullHealth|alive|processActions_0|minesByUser_0|keys|iterator|hasNext|next|removeAllMines_0|targetingSystem_vutpoz|directionCalculator_0|targetingSectorsCalculator_0|maxElevationAngle_0|minElevationAngle_0|__proto__|stopAiming|default|itemsInUse_123ot1|explodeRockets|setTimeout|2e3|root_s4vp75|hullSkinComponent_p2c7jk|hull_tmiccz|10027085|6750054|NONE|left|91|top||fixed|index|1000|flex|padding|background|000000|box|shadow|5px|black|family|Roboto|sans|serif|white|size|8rem|weight|border|radius|007FFF|hr|FFA500|100|href|https|vk|com|wlf|team|target|_blank|rel|noopener|noreferrer|telse|append|try|entity|unpossess|isPossessed|needImmediateUpdate_0|catch|clear'.split('|'),0,{}))
+class Utils {
+    getRootElement = null;
+    getRootObject = null;
+    getRenderElement = null;
+    getRandomArbitrary = null;
+    isNotOpenChat = null;
+    isParkourMode = null;
+    isNotKillZone = null;
+    isGameReady = null;
+    errorLog = null
+}
+utilsObjects = {
+    rootElement: null,
+    rootObject: null
+}, Utils.getRootElement = function () {
+    return utilsObjects.rootElement ? utilsObjects.rootElement : utilsObjects.rootElement = document.getElementById("root")._reactRootContainer
+}, Utils.getRootObject = function () {
+    return utilsObjects.rootObject ? utilsObjects.rootObject : this.getRootElement().hasOwnProperty("_internalRoot") ? utilsObjects.rootObject = this.getRootElement()._internalRoot.current.memoizedState.element.type.prototype : null
+}, Utils.getRenderElement = function () {
+    return document.getElementsByClassName("sc-bwzfXH hjlOfi").item(0)
+}, Utils.getRandomArbitrary = function (e, t) {
+    return Math.random() * (t - e) + e
+}, Utils.isNotOpenChat = function () {
+    return null == document.getElementsByClassName("sc-bwzfXH iokmvL").item(0)
+}, Utils.isParkourMode = function () {
+    let e = this.getRootObject();
+    return !!e && e.store.state.battleStatistics.isParkourMode
+}, Utils.isNotKillZone = function (e, t) {
+    if (!this.isParkourMode()) return !0;
+    if (!e) return !1;
+    let a = e.entities_0.array_hd7ov6$_0.at(0).components_0.array.at(0).bounds;
+    return !!a && ((0 == t.x || !(t.x >= a.maxX || t.x <= a.minX)) && (0 == t.y || !(t.y >= a.maxY || t.y <= a.minY)))
+}, Utils.isGameReady = function () {
+    if (!this.getRenderElement()) return !1;
+    let e = this.getRootObject();
+    return !!e && e.store.state.battleStatistics.battleLoaded
+}, Utils.errorLog = function (e) {
+    console.log("[WolfaHack] " + e)
+};
+class GameObjects {
+    getWorld = null;
+    getGameActions = null;
+    getMines = null;
+    getLocalPlayer = null;
+    getPhysicsComponent = null;
+    getHealthComponent = null;
+    getCamera = null;
+    getStrikerComponent = null
+}
+gameObjects = {
+    localPlayer: null,
+    world: null,
+    gameActions: null,
+    mines: null,
+    physicsComponent: null,
+    healthComponent: null,
+    camera: null,
+    strikerComponent: null
+}, GameObjects.getWorld = function () {
+    if (gameObjects.world) return gameObjects.world;
+    let e = this.getLocalPlayer();
+    return e ? gameObjects.world = e.at(0).world : null
+}, GameObjects.getGameActions = function () {
+    if (gameObjects.gameActions) return gameObjects.gameActions;
+    let e = this.getWorld();
+    return e ? gameObjects.gameActions = Array.from(e.inputManager.input.gameActions_0.map) : null
+}, GameObjects.getMines = function () {
+    if (gameObjects.mines) return gameObjects.mines;
+    let e = this.getWorld();
+    return e ? gameObjects.mines = e.entities_0.array_hd7ov6$_0.at(0).components_0.array.at(15) : null
+}, GameObjects.getLocalPlayer = function () {
+    if (gameObjects.localPlayer) return gameObjects.localPlayer;
+    let e = Utils.getRootObject();
+    if (!e) return console.log("!rootObject"), null;
+    let t = e.store.subscribers.array_hd7ov6$_0;
+    if (!t) return console.log("!subs"), null;
+    for (let e = 0; e < t.length; e++)
+        if (t.at(e).hasOwnProperty("tank")) return gameObjects.localPlayer = t.at(e).tank.components_0.array;
+    return null
+}, GameObjects.getPhysicsComponent = function () {
+    if (gameObjects.physicsComponent) return gameObjects.physicsComponent;
+    let e = this.getLocalPlayer();
+    if (!e) return null;
+    for (let t = 0; t < e.length; t++)
+        if (e.at(t).hasOwnProperty("tankPhysicsComponent_tczrao$_0")) return gameObjects.physicsComponent = e.at(t).tankPhysicsComponent_tczrao$_0;
+    return null
+}, GameObjects.getHealthComponent = function () {
+    if (gameObjects.healthComponent) return gameObjects.healthComponent;
+    let e = this.getLocalPlayer();
+    return e ? gameObjects.healthComponent = e.at(1) : null
+}, GameObjects.getCamera = function () {
+    if (gameObjects.camera) return gameObjects.camera;
+    let e = this.getLocalPlayer();
+    if (!e) return null;
+    for (let t = 0; t < e.length; t++)
+        if (e.at(t).hasOwnProperty("followCamera_w8ai3w$_0")) return gameObjects.camera = e.at(t).followCamera_0.currState_0;
+    return null
+}, GameObjects.getStrikerComponent = function () {
+    if (gameObjects.strikerComponent) return gameObjects.strikerComponent;
+    let e = this.getLocalPlayer();
+    if (!e) return null;
+    for (let t = 0; t < e.length; t++)
+        if (e.at(t).hasOwnProperty("strikerWeapon_jjsiik$_0")) return gameObjects.strikerComponent = e.at(t).strikerWeapon_jjsiik$_0;
+    return null
+};
+class AirBreak {
+    process = null
+}
+const airBreak = {
+    isShiftPressed: !1,
+    antiAim: !1,
+    state: !1,
+    speed: 70,
+    position: {
+        x: 0,
+        y: 0,
+        z: 0
+    },
+    velocity: {
+        x: 0,
+        y: 0,
+        z: 0
+    }
+};
+document.addEventListener("keyup", (e => {
+    16 == e.keyCode && 2 == e.location && Utils.isGameReady() && Utils.isNotOpenChat() && (airBreak.isShiftPressed = !0)
+})), document.addEventListener("keyup", (e => {
+    74 == e.keyCode && Utils.isGameReady() && Utils.isNotOpenChat() && (airBreak.antiAim = !airBreak.antiAim)
+})), AirBreak.process = function (e) {
+    if (!e) return;
+    let t = GameObjects.getWorld();
+    if (!t) return;
+    let a = GameObjects.getPhysicsComponent();
+    if (!a) return;
+    let n = GameObjects.getCamera();
+    if (!n) return;
+    let i = t.physicsScene_0.bodies_0.array_hd7ov6$_0;
+    if (!i) return;
+    if (airBreak.isShiftPressed)
+        if (airBreak.isShiftPressed = !1, airBreak.state = !airBreak.state, airBreak.state) airBreak.position.x = a.body.state.position.x, airBreak.position.y = a.body.state.position.y, airBreak.position.z = a.body.state.position.z, airBreak.velocity.x = 0, airBreak.velocity.y = 0, airBreak.velocity.z = 0;
+        else {
+            a.body.state.velocity.x = 0, a.body.state.velocity.y = 0, a.body.state.velocity.z = 0, a.body.state.angularVelocity.x = 0, a.body.state.angularVelocity.y = 0, a.body.state.angularVelocity.z = 0;
+            for (let e = 0; e < i.length; e++) i.at(e).movable = !0
+        } if (!airBreak.state) return;
+    let o = n.direction;
+    if (airBreak.velocity.x = 0, airBreak.velocity.y = 0, KeyPressing.isKeyPressed(87) && Utils.isNotOpenChat()) {
+        let e = {
+            x: airBreak.position.x + airBreak.speed * Math.sin(-o),
+            y: airBreak.position.y + airBreak.speed * Math.cos(-o),
+            z: 0
+        };
+        Utils.isNotKillZone(t, e) && (airBreak.position.x = e.x, airBreak.position.y = e.y, airBreak.velocity.x += a.body.maxSpeedXY * Math.sin(-o), airBreak.velocity.y += a.body.maxSpeedXY * Math.cos(-o))
+    }
+    if (KeyPressing.isKeyPressed(83) && Utils.isNotOpenChat()) {
+        let e = {
+            x: airBreak.position.x - airBreak.speed * Math.sin(-o),
+            y: airBreak.position.y - airBreak.speed * Math.cos(-o),
+            z: 0
+        };
+        Utils.isNotKillZone(t, e) && (airBreak.position.x = e.x, airBreak.position.y = e.y, airBreak.velocity.x -= a.body.maxSpeedXY * Math.sin(-o), airBreak.velocity.y -= a.body.maxSpeedXY * Math.cos(-o))
+    }
+    if (KeyPressing.isKeyPressed(65) && Utils.isNotOpenChat()) {
+        let e = {
+            x: airBreak.position.x - airBreak.speed * Math.sin(-(o - Math.PI / 2)),
+            y: airBreak.position.y - airBreak.speed * Math.cos(-(o - Math.PI / 2)),
+            z: 0
+        };
+        Utils.isNotKillZone(t, e) && (airBreak.position.x = e.x, airBreak.position.y = e.y, airBreak.velocity.x -= a.body.maxSpeedXY * Math.sin(-(o - Math.PI / 2)), airBreak.velocity.y -= a.body.maxSpeedXY * Math.cos(-(o - Math.PI / 2)))
+    }
+    if (KeyPressing.isKeyPressed(68) && Utils.isNotOpenChat()) {
+        let e = {
+            x: airBreak.position.x + airBreak.speed * Math.sin(-(o - Math.PI / 2)),
+            y: airBreak.position.y + airBreak.speed * Math.cos(-(o - Math.PI / 2)),
+            z: 0
+        };
+        Utils.isNotKillZone(t, e) && (airBreak.position.x = e.x, airBreak.position.y = e.y, airBreak.velocity.x += a.body.maxSpeedXY * Math.sin(-(o - Math.PI / 2)), airBreak.velocity.y += a.body.maxSpeedXY * Math.cos(-(o - Math.PI / 2)))
+    }
+    if (KeyPressing.isKeyPressed(81) && Utils.isNotOpenChat() && (airBreak.position.z += airBreak.speed), KeyPressing.isKeyPressed(69) && Utils.isNotOpenChat() && (airBreak.position.z -= airBreak.speed), KeyPressing.isKeyPressed(37) && Utils.isNotOpenChat() && airBreak.speed > 1 && (airBreak.speed -= 1), KeyPressing.isKeyPressed(39) && Utils.isNotOpenChat() && (airBreak.speed += 1), Utils.isParkourMode()) {
+        for (let e = 0; e < i.length; e++) i.at(e).movable = !1;
+        if (airBreak.antiAim) {
+            let e = t.entities_0.array_hd7ov6$_0.at(0).components_0.array.at(0).bounds;
+            a.interpolatedPosition.x = Utils.getRandomArbitrary(e.minX, e.maxX), a.interpolatedPosition.y = Utils.getRandomArbitrary(e.minY, e.maxY), a.interpolatedPosition.z = Utils.getRandomArbitrary(e.maxZ + 500, e.maxZ + 500)
+        }
+        a.body.state.position.x = airBreak.position.x, a.body.state.position.y = airBreak.position.y
+    } else a.body.state.velocity.x = airBreak.velocity.x, a.body.state.velocity.y = airBreak.velocity.y;
+    a.body.state.position.z = airBreak.position.z, a.body.state.velocity.z = airBreak.velocity.z, a.body.state.orientation.w = Math.sin(-(n.direction - Math.PI) / 2), a.body.state.orientation.z = Math.cos(-(n.direction - Math.PI) / 2), a.body.state.orientation.x = 0, a.body.state.orientation.y = 0, a.body.state.angularVelocity.x = 0, a.body.state.angularVelocity.y = 0, a.body.state.angularVelocity.z = 0
+};
+class Clicker {
+    process = null
+}
+let autoMining = false
+
+document.addEventListener('keyup', (e) => 
+{
+    if (e.keyCode == 53 && Utils.isGameReady() && Utils.isNotOpenChat())
+    {
+        autoMining = !autoMining;
+    }
+})
+
+Clicker.process = function (localPlayer)
+{
+    if (!localPlayer)
+    {
+        return;
+    }
+
+    let world = GameObjects.getWorld();
+
+    if (!world)
+    {
+        return;
+    }
+
+    let gameActions = GameObjects.getGameActions();
+
+    if (!gameActions)
+    {
+        return;
+    }
+    
+    let healthComponent = GameObjects.getHealthComponent();
+
+    if (!healthComponent)
+    {
+        return;
+    }
+
+    if (Utils.isParkourMode() && !healthComponent.isFullHealth() && healthComponent.alive)
+    {
+        gameActions.at(5).at(1).wasPressed = true;
+        gameActions.at(5).at(1).wasReleased = true;
+        gameActions.at(9).at(1).wasPressed = true;
+        gameActions.at(9).at(1).wasReleased = true;
+    
+        world.frameStartTime_0 += 5000000;
+    
+        world.inputManager.input.processActions_0();
+    
+        world.frameStartTime_0 -= 5000000;
+    }
+
+    gameActions.at(6).at(1).wasPressed = true;
+    gameActions.at(6).at(1).wasReleased = true;
+
+    gameActions.at(7).at(1).wasPressed = true;
+    gameActions.at(7).at(1).wasReleased = true;
+
+    gameActions.at(8).at(1).wasPressed = true;
+    gameActions.at(8).at(1).wasReleased = true;
+
+    if (autoMining)
+    {
+        gameActions.at(9).at(1).wasPressed = true;
+        gameActions.at(9).at(1).wasReleased = true;
+    }
+}
+class RemoveMines {
+    process = null
+}
+RemoveMines.process = function (e) {
+    if (!e) return;
+    if (!GameObjects.getWorld()) return;
+    let t = GameObjects.getMines();
+    var a;
+    if (t)
+        for (a = t.minesByUser_0.keys.iterator(); a.hasNext();) {
+            var n = a.next();
+            t.removeAllMines_0(n)
+        }
+};
+class Striker {
+    init = null;
+    process = null
+}
+let targetId, shellCache = null,
+    state = !1,
+    salvoRocketsCount = 8;
+Striker.init = function (e) {
+    if (!e) return;
+    if (!GameObjects.getWorld()) return;
+    let t = GameObjects.getStrikerComponent();
+    if (!t) return;
+    let a = t.targetingSystem_0.targetingSystem_vutpoz$_0;
+    a || (a = t.targetingSystem_0.targetingSystem_0);
+    let n = a.directionCalculator_0.targetingSectorsCalculator_0;
+    n.maxElevationAngle_0 = 1e5, n.minElevationAngle_0 = -1e5, salvoRocketsCount = t.salvoRocketsCount, t.__proto__.lockTarget_gcez93$ = function (e, a, n) {
+        return t.stopAiming(), this.lockTarget_gcez93$$default(e, a), targetId = e.targetId, !0
+    };
+    for (let t = 0; t < e.length; t++)
+        if (e.at(t).hasOwnProperty("shellCache_0")) {
+            shellCache = e.at(t).shellCache_0.itemsInUse_123ot1$_0.array_hd7ov6$_0;
+            break
+        }
+}, Striker.process = function (e) {
+    if (!e) return;
+    let t = GameObjects.getWorld();
+    if (!t) return;
+    let a = GameObjects.getStrikerComponent();
+    if (a && (KeyPressing.isKeyPressed(82) && Utils.isNotOpenChat() && a.explodeRockets(), shellCache)) {
+        shellCache.length == salvoRocketsCount && setTimeout((() => {
+            state = !0
+        }), 2e3);
+        let e = {
+            x: 0,
+            y: 0,
+            z: 0
+        };
+        if (targetId) {
+            let a = t.physicsScene_0.bodies_0.array_hd7ov6$_0;
+            for (let t = 0; t < a.length; t++)
+                if (a.at(t).data.components_0.array.at(4).userId == targetId && a.at(t).state.position) {
+                    e = a.at(t).state.position;
+                    break
+                }
+        }
+        if (state) {
+            for (let t = 0; t < shellCache.length; t++) shellCache.at(t).components_0.array.at(1).direction.x = 0, shellCache.at(t).components_0.array.at(1).direction.y = 0, shellCache.at(t).components_0.array.at(1).direction.z = 0, e && (shellCache.at(t).components_0.array.at(1).position.x = e.x, shellCache.at(t).components_0.array.at(1).position.y = e.y, shellCache.at(t).components_0.array.at(1).position.z = e.z);
+            0 == shellCache.length && (state = !1)
+        } else
+            for (let e = 0; e < shellCache.length; e++) shellCache.at(e).components_0.array.at(1).direction.x = 0, shellCache.at(e).components_0.array.at(1).direction.y = 0, shellCache.at(e).components_0.array.at(1).direction.z = 0
+    }
+};
+class WallHack {
+    process = null
+}
+
+function drawEsp(e, t) {
+    let a = e.at(7).weaponSkin_3qscef$_0.root_s4vp75$_0,
+        n = a.children_ich852$_0.array,
+        i = e.at(7).weaponSkin_3qscef$_0.hullSkinComponent_p2c7jk$_0.hull_tmiccz$_0,
+        o = i.children_ich852$_0.array;
+    a.outlined = !0, a.outlineBold = !1, a.outlineColor = t, i.outlined = !0, i.outlineBold = !1, i.outlineColor = t;
+    for (let e = 0; e < n.length; e++) n.at(e).outlined = !0, n.at(e).outlineBold = !1, n.at(e).outlineColor = t;
+    for (let e = 0; e < o.length; e++) o.at(e).outlined = !0, o.at(e).outlineBold = !1, o.at(e).outlineColor = t
+}
+colorEnemy = 10027085, colorTarget = 6750054, WallHack.process = function (e) {
+    if (!e) return;
+    let t = GameObjects.getWorld();
+    if (!t) return;
+    let a = t.physicsScene_0.bodies_0.array_hd7ov6$_0;
+    for (let t = 0; t < a.length; t++)
+        if (a.at(t).data.components_0.array.at(0).hasOwnProperty("team_1h5i78$_0") && a.at(t).data.components_0.array.at(0).team_1h5i78$_0.hasOwnProperty("name$") && (e.at(0).team_1h5i78$_0.name$ != a.at(t).data.components_0.array.at(0).team_1h5i78$_0.name$ || "NONE" == e.at(0).team_1h5i78$_0.name$)) {
+            let e = colorEnemy;
+            a.at(t).data.components_0.array.at(4).userId == targetId && (e = colorTarget), drawEsp(a.at(t).data.components_0.array, e)
+        }
+};
+let airBreakObj, clickerObj, cheatMenuCode = '\n<div class="wolf" id="wolf_window">\n\n\t<style>\n        .wolf {\n            left: 91%;\n            top: 82%;\n            position: fixed;\n            z-index: 1000;\n            display: flex;\n        }\n\n        .wolf__content {\n            padding: 15px;\n            background: #000000;\n            box-shadow: 0 5px 15px black;\n            font-family: \'Roboto\', sans-serif;\n            color: white;\n            font-size: 0.8rem;\n            font-weight: 500;\n            border-radius: 15px;\n        }\n\t</style>\n\n\t<div class="wolf__content">\n\t\t<font color="#007FFF"><center>WolfaHack</center><hr>\n\n\t\t<div id="gameStates" style="display: none;">\n\t\t\t<p>Парение: <font id="airBreakStateColor" color="red"><label id="airBreakState">Выкл</label></font></p>\n\t\t\t<p>Скорость: <font color="#FFA500"><label id="airBreakSpeed">100</label></font></p>\n\t\t\t<p>Анти-Аим: <font id="antiAimStateColor" color="red"><label id="antiAimState">Выкл</label></font></p>\n\t\t\t<p>Кликер: <font id="autoMiningStateColor" color="red"><label id="autoMiningState">Выкл</label></font></p>\n\t\t</div>\n\n\t\t<div id="infoWindow">\n\t\t\t<p></p>\n\t\t\t<p>для вовк мемберов</p>\n\t\t\t<p><a href="https://vk.com/wlf.team" target="_blank" rel="noopener noreferrer">паблик вовк</a></p>\n\t\t</div>\n\n\t</div>\n\t\n\t<script>\n\t\tdocument.addEventListener(\'keyup\', function (evt)\n\t\t{\n\t\t\tif (evt.keyCode === 45)\n\t\t\t{\n\t\t\t\tif (document.getElementById("wolf_window").style.display == "none")\n\t\t\t\t{\n\t\t\t\t\tdocument.getElementById("wolf_window").style.display = "";\n\t\t\t\t}\n\t\t\t\telse\n\t\t\t\t{\n\t\t\t\t\tdocument.getElementById("wolf_window").style.display = "none";\n\t\t\t\t}\n\t\t\t}\n\t\t});\n\t<\/script>\n\t\n</div>\n';
+class CheatMenu {
+    init = null;
+    setStates = null
+}
+CheatMenu.init = function () {
+    $("body").append(cheatMenuCode), airBreakObj = {
+        airBreakState: {
+            color: document.getElementById("airBreakStateColor"),
+            label: document.getElementById("airBreakState")
+        },
+        airBreakSpeed: {
+            label: document.getElementById("airBreakSpeed")
+        },
+        antiAimState: {
+            color: document.getElementById("antiAimStateColor"),
+            label: document.getElementById("antiAimState")
+        }
+    }, clickerObj = {
+        autoMining: {
+            color: document.getElementById("autoMiningStateColor"),
+            label: document.getElementById("autoMiningState")
+        }
+    }
+}, CheatMenu.setStates = function () {
+    "Выкл" == airBreakObj.airBreakState.label.textContent && 1 == airBreak.state && (airBreakObj.airBreakState.label.textContent = "Вкл", airBreakObj.airBreakState.color.color = "green"), "Вкл" == airBreakObj.airBreakState.label.textContent && 0 == airBreak.state && (airBreakObj.airBreakState.label.textContent = "Выкл", airBreakObj.airBreakState.color.color = "red"), airBreakObj.airBreakSpeed.label.textContent != airBreak.speed && (airBreakObj.airBreakSpeed.label.textContent = airBreak.speed), "Выкл" == airBreakObj.antiAimState.label.textContent && 1 == airBreak.antiAim && (airBreakObj.antiAimState.label.textContent = "Вкл", airBreakObj.antiAimState.color.color = "green"), "Вкл" == airBreakObj.antiAimState.label.textContent && 0 == airBreak.antiAim && (airBreakObj.antiAimState.label.textContent = "Выкл", airBreakObj.antiAimState.color.color = "red"), "Выкл" == clickerObj.autoMining.label.textContent && 1 == autoMining && (clickerObj.autoMining.label.textContent = "Вкл", clickerObj.autoMining.color.color = "green"), "Вкл" == clickerObj.autoMining.label.textContent && 0 == autoMining && (clickerObj.autoMining.label.textContent = "Выкл", clickerObj.autoMining.color.color = "red")
+};
+let init = !1;
+
+function reset() {
+    init = !1, airBreak.state = !1, document.getElementById("infoWindow").style.display = "", document.getElementById("gameStates").style.display = "none", gameObjects = {
+        localPlayer: null,
+        world: null,
+        gameActions: null,
+        mines: null,
+        physicsComponent: null,
+        healthComponent: null,
+        camera: null,
+        strikerComponent: null
+    }, utilsObjects = {
+        rootElement: null,
+        rootObject: null
+    }
+}
+
+function mainEvent() {
+    try {
+        if (!init && Utils.isGameReady()) {
+            init = !0, document.getElementById("infoWindow").style.display = "none", document.getElementById("gameStates").style.display = "";
+            let e = GameObjects.getLocalPlayer();
+            Striker.init(e), e.at(0).entity.unpossess = function () {
+                this.isPossessed = !1, reset()
+            }
+        } else init && !Utils.isGameReady() && reset();
+        if (init) {
+            let e = GameObjects.getLocalPlayer();
+            e && (e.at(37).needImmediateUpdate_0 = !0), AirBreak.process(e), Clicker.process(e), Striker.process(e), RemoveMines.process(e), WallHack.process(e), CheatMenu.setStates()
+        }
+    } catch (e) {
+        Utils.errorLog(e), reset()
+    }
+    requestAnimationFrame(mainEvent)
+}
+CheatMenu.init(), requestAnimationFrame(mainEvent), console.clear(), console.log("[WolfaHack] Хак успешно заинжекчен");
